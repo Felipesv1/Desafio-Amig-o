@@ -1,0 +1,370 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    text-align:center;
+    background:darkorange;
+   
+  }
+  
+  header{
+    background:black;
+    display:inline-block;
+    width:100%;
+     padding: 20px;
+  }
+  
+  
+  h1{
+      font-family: "Audiowide", sans-serif;
+    font-size:35px;
+    margin-top:15px;
+    margin-bottom:15px;
+      text-shadow:2px 2px 5px black;
+    text-align:initial;
+    color:darkorange;
+    
+  }
+  
+  
+  
+  li{
+  display:inline;
+    margin-left:5px;
+    padding:10px; 
+    color:darkorange;
+  }
+  
+  
+  li:hover{
+      color: gray;
+      cursor: pointer;
+    }
+  
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .h21{
+    margin-top:35px;
+    margin-bottom:10px;
+  }
+  
+  
+  .adote{
+    margin-top:15px;
+    margin-bottom:15px;
+  }
+  
+  
+  .but{
+    padding:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+     }
+    
+  .h22{
+    margin-bottom:15px;
+    margin-top:15px;
+  }
+  
+    
+  img{
+    width:250px;
+    height:250px;
+    border-radius:250px;
+    border:4px solid orange;
+    object-fit:cover;
+  
+  }
+  
+  
+    
+  .luna{
+    background:black;
+   
+    width:260px;
+    display:inline-block;
+      border-radius:100px;
+     padding-bottom:25px;
+    transition: 1s all;
+    overflow:hidden;
+  
+  }
+  
+  .luna:hover{
+  
+     transform:scale(1.2);
+    border-radius:110px;
+  }
+  
+  
+  
+  .duque{
+     background:black;
+    width:260px;
+    display:inline-block;
+     padding-bottom:25px;
+     border-radius:100px;
+    transition: 1s all;
+    overflow:hidden;
+  }
+  
+  .duque:hover{
+  
+     transform:scale(1.2);
+    border-radius:110px;
+  }
+  
+  .Perola{
+     background:black;
+    width:260px;
+    display:inline-block;
+     padding-bottom:25px;
+     border-radius:100px;
+    transition: 1s all;
+    overflow:hidden;
+  }
+  
+  .Perola:hover{
+  
+     transform:scale(1.2);
+    border-radius:110px;
+  }
+  
+  
+  .thor{
+     background:black;
+    width:260px;
+    display:inline-block; 
+    position: absolute;
+     padding-bottom:25px;
+     border-radius:100px;
+    transition: 1s all;
+    margin-left:2px;
+  
+    
+  }
+  
+  .thor:hover{
+  
+     transform:scale(1.2);
+    border-radius:110px;
+    
+  }
+  
+  .Rex{
+     background:black;
+    width:260px;
+    height:380px;
+    padding-bottom:2px;
+    display:inline-block; 
+    position: absolute;
+    margin-left:265px;
+     border-radius:100px;
+    transition: 1s all;
+    
+  }
+  
+  .Rex:hover{
+  
+     transform:scale(1.2);
+    border-radius:110px;
+  }
+  
+  .veja{
+   
+    margin-top:10px;
+    margin-bottom:10px;
+   
+  }
+  
+  .amigao{
+   
+   margin:auto;
+    margin-top:50px;
+  margin-bottom:25px;
+   
+  }  
+    
+  .ami{
+    text-decoration:none;
+    
+  }
+  
+  .icone{
+  width:40px;
+    height:40px;
+     margin:auto;
+    border:none
+    
+  }
+  
+  .icon{
+    display:inline-block;
+   width:40px;
+    margin-top:20px;
+  }
+  
+  .footer{
+    margin-top:40px;
+    margin-bottom:40px
+  }
+  
+  .rodape{
+    margin-bottom:5px;
+    background:black;
+      
+  }
+  
+  .nome{
+    background:darkorange;
+    margin-bottom:5px;
+    color:black;
+    border:2px solid black;
+    
+  }
+  
+  .idade{
+     margin-bottom:5px;
+      background:darkorange;
+    color:black;
+     border:2px solid black;
+  }
+  
+  button{
+    background:black;
+    padding:10px;
+    border-radius:22px;
+    border:none;
+    cursor:pointer;
+    margin-top:10px;
+    color:darkorange;
+   
+  }
+  
+   .menu{
+      display:none;
+    }
+  
+  @media(max-width:598px){
+    li{
+      display:block;
+    margin-right:350px;
+    padding:3px; 
+  text-align:initial;
+      
+    }
+    
+    
+    .menu{
+      display:inline;
+    padding:2px;
+    margin-bottom:10px;
+  }
+  
+  
+    
+  }
+  
+  @media(max-width:815px){
+    
+    
+    .luna{
+      margin-right:20px;
+      
+      
+    }
+    
+    
+    .Rex{
+      position:initial;
+      margin-left:10px;
+      margin-right:0px;
+      
+    }
+   
+    .Perola{
+      margin-right:auto;
+     margin-top:10px;
+      margin-left:26px;
+  
+    }
+    
+    .thor{
+     background:black;
+    width:260px;
+    display:inline-block; 
+    position: initial;
+     padding-bottom:25px;
+     border-radius:100px;
+      margin-right:25px;
+      margin-left:20px;
+    
+    
+  }
+
+   }
+    
+    @media(max-width:611px){
+      
+      .Rex{
+      margin:auto;
+     display:block;
+          margin-bottom:10px;
+        margin-top:10px;
+        
+    
+      
+    }
+      
+      .luna{
+        
+        display:block;
+        margin:auto;
+        padding:auto;
+          margin-bottom:10px;
+        margin-top:10px;
+        
+      }  
+      img{
+        
+        padding:auto;
+      }
+      
+      
+      .Perola{
+      
+        display:block;
+        margin:auto;
+        margin-bottom:10px;
+        margin-top:10px;
+      }
+      
+      .duque{
+        
+         display:block;
+        margin:auto;
+          margin-bottom:10px;
+        margin-top:10px;
+        
+      }
+      
+      .thor{
+        
+          display:block;
+        margin:auto;
+          margin-bottom:10px;
+        margin-top:10px;
+      }
+      
+    
+      
+   }
+    
+      
+    
